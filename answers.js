@@ -1,8 +1,14 @@
+/////////////////////////////
+// Easy Going
+////////////////////////////
+
 for ( var i = 0; i < 20; i++){
     console.log(i)
 }
 
-////////////
+/////////////////////////
+// Get Even
+////////////////////////
 
 for ( var i = 0; i < 200; i++){
     if (i % 2 == 0){
@@ -10,7 +16,9 @@ for ( var i = 0; i < 200; i++){
     }
 }
 
-///////////
+/////////////////////////
+// Fizz Buzz
+/////////////////////////
 
 for ( var i = 1; i <100; i++) {
     var three = i % 3;
@@ -48,6 +56,23 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
   console.log(YukonTerritory)
 
   // Give dart a second hometown by adding "Hawkins"
-  const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
+ { const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
   dart.push("Hawkins");{
   console.log(dart)}
+  }
+  ////////////////////////////////
+  /// Yell at the Ninja Turtles
+  ////////////////////////////////
+
+  // 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Rapheal, Michaelangelo)
+{const ninjaTurtles = [ "donatello", "leonardo", "rapheal", "michealangelo"]}
+ // 2.Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
+
+ let arr = ["donatello", "leonardo", "rapheal", "michealangelo"]
+ const newArr = []
+   for ( let item of arr ){
+    newArr.push(item.toUpperCase());
+   }
+
+   console.log(newArr)
+///////////////////////////////
