@@ -90,3 +90,21 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 // 7. "Djiango unchained" is 3 and adding "Avatar" places at the end making 19 elements in the array. splice can be used to remove/add/replace elements in existing array.
 // 8. this returns a selected portion of the array you choose it to return. this change it 
 // 9.  this returns undifined 
+
+/////////////////////////////////
+//  Where is Waldo
+/////////////////////////////////
+
+
+    const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+//1.
+whereIsWaldo.splice(1,1);
+console.log(whereIsWaldo)
+// 2. 
+//whereIsWaldo.splice(2,2,"Neff")
+//console.log(whereIsWaldo)// alright so im not sureif its a typo on your end but isnt this example split into multiple arrays?? because i have tried multiple ways and ends up doing the opposite.
+// 3. 
+console.log("waldo")
+
