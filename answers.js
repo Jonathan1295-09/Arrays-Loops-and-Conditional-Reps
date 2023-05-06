@@ -108,3 +108,10 @@ console.log(whereIsWaldo)
 // 3. 
 console.log("waldo")
 
+////////////////////////////////
+// Excited Kitten
+///////////////////////////////
+// 1.
+// let love = "Love me, pet me! HSSSSSS!"
+// for (let love = 0; love < 20; i++)
+// console.log(love)
