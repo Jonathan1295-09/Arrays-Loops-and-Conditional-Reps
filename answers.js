@@ -75,4 +75,18 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
    }
 
    console.log(newArr)
-///////////////////////////////
+
+////////////////////////////////
+// Methods, Revisited
+////////////////////////////////
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// 1. // farMovies.soft // this is will sort it alphabetically.
+// 2. this removes the last element in the array and returns everything else when console.log except the last element in the array.
+// 3. this will add "Guardian of the Galaxy" to the array
+// 4. this reverses the array.
+// 5. Shift removes the first element "Jaws" and returns everything else after it when console.log
+// 6. this specified elements to an array and returns the new array when console.log
+// 7. "Djiango unchained" is 3 and adding "Avatar" places at the end making 19 elements in the array. splice can be used to remove/add/replace elements in existing array.
+// 8. this returns a selected portion of the array you choose it to return. this change it 
+// 9.  this returns undifined 
